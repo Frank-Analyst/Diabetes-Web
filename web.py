@@ -3,6 +3,7 @@ import pickle
 import streamlit as st
 
 
+
 loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 # Creating a function for prediction
