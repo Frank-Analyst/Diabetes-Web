@@ -1,9 +1,10 @@
 import numpy as np
 import pickle
 import streamlit as st
+import streamlit.web.cli as stcliru
 
 
-loaded_model = pickle.load(open('E:/Projects/Jupyter/ML/ML Projects/Diabetes/Web app/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('E:/Projects/Jupyter/ML & DL/ML Projects/Diabetes/Web app/trained_model.sav', 'rb'))
 
 # Creating a function for prediction
 
