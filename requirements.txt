@@ -1,4 +1,4 @@
 numpy==1.23.5
 streamlit==1.24.1
 scikit-learn==1.2.1
-pickle==1.0.2
+pickle
